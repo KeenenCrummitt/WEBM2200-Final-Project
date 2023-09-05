@@ -1,0 +1,49 @@
+.trek-navbar {
+  color: white;
+  font-size: large;
+  background: black;
+}
+
+.trek-navbar a {
+  color: white;
+}
+
+.card-title {
+  font-size: x-large;
+}
+
+.navbar-brand {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.search-container button {
+  float: right;
+  padding: 10px 10px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container input[type="text"] {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+}
+
+.trek-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.image {
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.background {
+  background: black;
+}
