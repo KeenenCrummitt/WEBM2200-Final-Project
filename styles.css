@@ -21,7 +21,7 @@
   float: right;
   padding: 10px 10px;
   background: #ddd;
-  font-size: 17px;
+  font-size: 18px;
   border: none;
   cursor: pointer;
 }
@@ -39,11 +39,26 @@
 }
 
 .image {
-  height: 500px;
+  height: 600px;
+  width: 100vw;
+  min-width: 100vw;
   object-fit: cover;
-  object-position: center;
 }
 
 .background {
   background: black;
+}
+
+.carousel-item {
+  width: 100%;
+}
+
+.navbar-toggler {
+  background: white;
+}
+
+.navbar-toggler-icon {
+  /* background-color: blue; */
+  padding: 5px;
+  font-size: x-large;
 }

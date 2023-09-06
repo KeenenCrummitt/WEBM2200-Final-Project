@@ -30,7 +30,7 @@
   </head>
 
   <body class="">
-    <nav class="navbar navbar-expand-sm trek-navbar">
+    <nav class="navbar navbar-expand-lg trek-navbar justify-content-between">
       <a class="navbar-brand" href="#">TREK</a>
       <button
         class="navbar-toggler"
@@ -41,9 +41,15 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon" onclick="myFunction()"
+          ><i class="fa fa-bars"></i
+        ></span>
       </button>
-      <div class="collapse navbar-collapse" id="myTogglerNav">
+      <div
+        class="collapse navbar-collapse"
+        style="flex-grow: 0"
+        id="myTogglerNav"
+      >
         <div class="navbar-nav ml-auto">
           <a class="nav-item nav-link" href="#">Home</a>
           <a class="nav-item nav-link" href="#">Shop</a>
@@ -52,14 +58,14 @@
           <a class="nav-item nav-link" href="#">Kids</a>
           <a class="nav-item nav-link" href="#">Apparel</a>
           <a class="nav-item nav-link" href="#">Contact</a>
-          <div class="search-container">
-            <input type="text" placeholder="Search.." />
-            <button type="button">
-              <i class="fa fa-search"></i>
-            </button>
-          </div>
         </div>
         <!--navbar-->
+      </div>
+      <div class="search-container">
+        <input type="text" placeholder="Search.." />
+        <button type="button">
+          <i class="fa fa-search"></i>
+        </button>
       </div>
       <!--collapse-->
     </nav>
@@ -73,22 +79,14 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img
-            src="images/air-bike.jpg"
-            class="d-block w-100 image"
-            alt="..."
-          />
+          <img src="images/air-bike.jpg" class="image" alt="..." />
           <div class="carousel-caption d-none d-md-block">
             <h1>Welcome to Trek Bikes</h1>
             <p>Home of the best mountain bikes in the business!</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img
-            src="images/sunset-bike.jpg"
-            class="d-block w-100 image"
-            alt="..."
-          />
+          <img src="images/sunset-bike.jpg" class="image" alt="..." />
           <div class="carousel-caption d-none d-md-block">
             <h1>The mountain bike craft is our specialty</h1>
             <p>
@@ -99,11 +97,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img
-            src="images/bike-etch.jpg"
-            class="d-block w-100 image"
-            alt="..."
-          />
+          <img src="images/bike-etch.jpeg" class="image" alt="..." />
           <div class="carousel-caption d-none d-md-block">
             <h1>Contact us</h1>
             <p>
@@ -164,7 +158,7 @@
     <section id="cards">
       <div class="container-fluid">
         <div class="row row-cols-l row-cols-xl-4 row-cols-md-2">
-          <div class="col-xl-3 col-md-6 col-12 my-4">
+          <div class="col-xl-3 col-sm-6 col-md-4 col-12 my-4">
             <section class="card" style="width: 18rem" style="height: 5rem">
               <img
                 class="card-img-top img-fluid trek-icon"
@@ -183,7 +177,7 @@
             </section>
           </div>
 
-          <div class="col-xl-3 col-md-6 col-12 my-4">
+          <div class="col-xl-3 col-sm-6 col-md-4 col-12 my-4">
             <section class="card" style="width: 18rem">
               <img
                 class="card-img-top img-fluid trek-icon"
@@ -202,7 +196,7 @@
             </section>
           </div>
 
-          <div class="col-xl-3 col-md-6 col-12 my-4">
+          <div class="col-xl-3 col-sm-6 col-md-4 col-12 my-4">
             <section class="card" style="width: 18rem">
               <img
                 class="card-img-top img-fluid trek-icon"
@@ -221,7 +215,7 @@
             </section>
           </div>
 
-          <div class="col-xl-3 col-md-6 col-12 my-4">
+          <div class="col-xl-3 col-sm-6 col-md-4 col-12 my-4">
             <section class="card" style="width: 18rem">
               <img
                 class="card-img-top img-fluid trek-icon"
